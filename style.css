@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-links li a:hover {
+  color: #00c4b4;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.sign-in {
+  background: none;
+  border: 1px solid #333;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.get-started {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.get-started:hover {
+  background-color: #333;
+}
+
+.header {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 80px;
+  gap: 24px;
+}
+
+.right {
+  width: 50%;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header .black {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 15px;
+}
+
+.header .white {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 15px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+.contact {
+  padding: 112px 64px;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+
+.div1 {
+  text-align: center;
+}
+
+.div2 {
+  text-align: center;
+}
+
+.div3 {
+  text-align: center;
+}
+
+.div1 h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.div2 h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.div3 h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
